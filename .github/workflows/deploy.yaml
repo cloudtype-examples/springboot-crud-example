@@ -32,3 +32,7 @@ jobs:
                 url: git@github.com:${{ github.repository }}.git
                 ref: ${{ github.ref }}
               preset: java-springboot
+            resources:
+              spot: false
+              cpu: 1.0
+              memory: 1.0          
